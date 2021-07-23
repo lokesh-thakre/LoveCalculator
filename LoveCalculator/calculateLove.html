@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LovePer</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="script.js"></script>
+</head>
+<style>
+    .heart{
+    color: red;
+    font-size: 40px;
+
+}
+button{
+    background-color:#00ffff;
+    width:90px;
+    margin: auto;
+
+}
+.card-footer{
+    background-color: #037003;
+    color: #ffffff;
+    width:108%;
+    margin-top: 2%;
+    margin-left: -4%;
+
+
+}
+.card{
+    height:48.05vh;
+
+}
+#truth{
+    margin-top: 10px;
+}
+#name{
+    margin-bottom: -10px;
+}
+#grin{
+    font-size: 20px;
+}
+</style>
+
+<body>
+	<div class="container w-50 m-auto">
+	<div class="card w-75 m-auto">
+		<div class="card-header bg-danger text-white text-center">LOVE PERCENTAGE</div>
+		<div class="card-body ">
+			<form class="form text-center" onclick="return false">
+				<div class="form-group">
+					<input type="text" name="" id="name" placeholder="Your Name" class="text-center">
+				</div>
+				<div><span class="heart">&#9829;</span></div>
+				<div class="form-group">
+					<input type="text" name="" id="lname" placeholder="Love Name" class="text-center">
+				</div>
+                       <div>
+                       	<button class="w-20 m-auto" onclick="Percentage()"><b>CHECK</b></button></div> 
+
+                       <div class="form-group">
+                       	<input type="text" name="" id="truth" placeholder="Love Percentage" class="text-center"></div>
+			</form>
+
+			<div class="card-footer text-center">May Your Relationship Last Forever<span id="grin">&#128519</span></div>
+		</div></div>
+	</div>
+
+</body>
+</html>
